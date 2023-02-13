@@ -1,13 +1,18 @@
-# Movie App
-
-A Next.js based website that allows you to discover popular movies and TV shows. Data is fetched from the [The Movie Database (TMDb) API](https://www.themoviedb.org/). The design is implemented using [Tailwind CSS](https://tailwindcss.com/).
-
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Home Page](#home-page)
 - [Popular TV Shows](#popular-tv-shows)
 - [Movie Search](#movie-search)
 - [TV Show Search](#tv-show-search)
+
+## Introduction
+
+A Next.js based website that allows you to discover popular movies and TV shows. Data is fetched from the [The Movie Database (TMDb) API](https://www.themoviedb.org/). The design is implemented using [Tailwind CSS](https://tailwindcss.com/).
+
+## Website Link: [Click Here](https://movie-app-kevin.vercel.app/)
+
+<img src="markdown-images/website.png">
 
 ## Home Page
 
