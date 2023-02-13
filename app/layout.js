@@ -1,4 +1,13 @@
-import './globals.css'
+import "./globals.css";
+import { Montserrat } from "@next/font/google";
+import Nav from "./Nav";
+import Footer from "./Footer";
+
+const montserrat = Montserrat({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
 
 export default function RootLayout({ children }) {
   return (
@@ -8,7 +17,11 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className={`${montserrat.className} mx-0 my-6   md:mx-32`}>
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }

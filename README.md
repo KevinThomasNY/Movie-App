@@ -1,38 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie App
 
-## Getting Started
+A Next.js based website that allows you to discover popular movies and TV shows. Data is fetched from the [The Movie Database (TMDb) API](https://www.themoviedb.org/). The design is implemented using [Tailwind CSS](https://tailwindcss.com/).
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Home Page](#home-page)
+- [Popular TV Shows](#popular-tv-shows)
+- [Movie Search](#movie-search)
+- [TV Show Search](#tv-show-search)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Home Page
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The home page displays a list of popular movies, with each movie represented by its poster and title. You can click on a movie poster to access more information about the movie on a dynamic URL.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Popular TV Shows
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The second page of the app showcases a list of popular TV shows. You can access more information about a show by clicking on its poster.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Movie Search
 
-## Learn More
+The third page allows you to search for movies by keyword. You can access more information about a movie by clicking on its poster.
 
-To learn more about Next.js, take a look at the following resources:
+## TV Show Search
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The fourth page of the app allows you to search for TV shows by keyword. You can access more information about a show by clicking on its poster.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Built With
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/)
+- [The Movie Database (TMDb) API](https://www.themoviedb.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
