@@ -32,7 +32,7 @@ export default async function Page({ params }) {
             <div style={{ display: "flex", flexWrap: "wrap" }}>
               {res.genres &&
                 res.genres.length > 0 &&
-                res.genres.map(function (genre) {
+                res.genres?.map(function (genre) {
                   return (
                     <p
                       className="mb-3 bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded "

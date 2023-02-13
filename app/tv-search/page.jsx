@@ -43,7 +43,7 @@ export default function Page() {
       <div className="grid gap-12 lg:gap-10 sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
         {searchTerm.length > 0 &&
           results.results &&
-          results.results.map((movie) => (
+          results.results?.map((movie) => (
             <TV
               key={movie.id}
               id={movie.id}
