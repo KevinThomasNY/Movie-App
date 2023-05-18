@@ -13,10 +13,7 @@ export default function Foot() {
           >
             API
           </Footer.Link>
-          <Footer.Link
-            href="https://kevin-thomas-portfolio.vercel.app/"
-            className="mr-6"
-          >
+          <Footer.Link href="https://kevinthomas.vercel.app/" className="mr-6">
             Portfolio
           </Footer.Link>
           <Footer.Link href="https://github.com/KevinThomasNY">
