@@ -1,11 +1,13 @@
 "use client";
 import { Footer } from "flowbite-react";
-import Link from "next/link";
+
 export default function Foot() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="mt-6">
       <Footer container={true}>
-        <Footer.Copyright href="/" by="Movie App" year={2023} />
+        <Footer.Copyright href="/" by="Movie App" year={currentYear} />
         <Footer.LinkGroup>
           <Footer.Link
             href="https://developers.themoviedb.org/3/getting-started/introduction"
